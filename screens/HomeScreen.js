@@ -7,7 +7,7 @@ function HomeScreen({ navigation }) {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Registration</Text>
+      <Text style={styles.text}>Registration with useReducer</Text>
       <View style={styles.buttonContainer}>
         <Button
           title="Name"
@@ -40,7 +40,8 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#111",
     alignItems: "center",
-    justifyContent: "center",
+    paddingTop: 190,
+    // justifyContent: "center",
   },
   text: {
     color: "#ddd",

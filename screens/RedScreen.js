@@ -18,6 +18,7 @@ function RedScreen({ navigation }) {
 
   return (
     <View style={styles.container}>
+      <Text style={[styles.text, { marginBottom: 48 }]}>Using Reducer</Text>
       <Text style={styles.text}>Enter your email address</Text>
       <TextInput
         value={email}
@@ -38,7 +39,8 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#faa",
     flexDirection: "column",
-    justifyContent: "center",
+    // justifyContent: "center",
+    paddingTop: 150,
     alignItems: "center",
     padding: 12,
   },
